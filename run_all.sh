@@ -16,8 +16,13 @@ javac cannonsim.java
 java cannonsim --input_dir $INPUT_DIR --output_dir $OUTPUT_DIR
 
 
+echo -e "\n\nPython program outputs:"
 cat $OUTPUT_DIR/py_output.txt
-echo ""
+
+echo -e "\n\nC program outputs:"
 cat $OUTPUT_DIR/c_output.txt
-echo ""
+
+echo -e "\n\nJava program outputs:"
 cat $OUTPUT_DIR/java_output.txt
+
+echo -e "\n\nDONE..."
