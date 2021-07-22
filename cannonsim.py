@@ -86,9 +86,6 @@ if __name__ == "__main__":
         f.write("Dist,lastvx,lastvy\n")
         f.write("%f,%f,%f" % (out_dist, out_vx, out_vy))
 
-    with open(output_file, "r") as f:
-        print(f.read())
-
     # plotting the results
     output_png = path.join(output_dir, "py_output.png")
     fig = plt.figure()
